@@ -12,7 +12,7 @@
 ```json
 {
   "scaner_max_depth": 5,
-  "scraper_locale": "zh_cn",
+  "scraper_locale": "zh_cn",  #建议使用jp，cn可能会出现中文名的鬼畜状态
   "scraper_connect_timeout": 10,
   "scraper_read_timeout": 10,
   "scraper_sleep_interval": 3,

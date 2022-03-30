@@ -34,6 +34,7 @@
   - ```maker_name``` 同人作品的社团名称
   - ```release_date``` 同人作品的发售日期
   - ```cv_list_str``` 同人作品的声优列表
+  - ```tags_list_str```同人作品的类型列表
 
   例如：```"renamer_template": "[maker_name] work_name (rjcode)"```<br/>
   重命名前：```RJ149268 哀しみのイき人形```<br/>

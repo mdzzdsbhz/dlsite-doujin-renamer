@@ -75,6 +75,10 @@ class Renamer(object):
         cv_list = metadata['cvs']
         cv_list_str = '(' + ' '.join(cv_list) + ')' if len(cv_list) > 0 else ''
         new_name = new_name.replace('cv_list_str', cv_list_str)
+        
+        tags_list = metadata['tags']
+        tags_list_str = '('"#" + '#'.join(tags_list) + ')' if len(tags_list) > 0 else ''
+        new_name = new_name.replace('tags_list_str', tags_list_str)
 
         # 文件名中不能包含 Windows 系统的保留字符
         new_name = WINDOWS_RESERVED_CHARACTER_PATTERN.sub('', new_name)

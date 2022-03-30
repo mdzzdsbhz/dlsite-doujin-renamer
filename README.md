@@ -17,7 +17,7 @@
   "scraper_read_timeout": 10,
   "scraper_sleep_interval": 3,
   "scraper_http_proxy": null,
-  "renamer_template": "[maker_name][rjcode] work_name cv_list_str",
+  "renamer_template": "[maker_name][rjcode] work_name cv_list_str tags_list_str",
   "renamer_exclude_square_brackets_in_work_name_flag": false
 }
 ```
